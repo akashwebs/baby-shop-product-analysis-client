@@ -1,0 +1,9 @@
+.menu a{
+    border-bottom: 1px solid rgb(75, 85, 99);
+    font-weight: 600;
+}
+.menu a:hover,.active{
+    
+    color: red;
+    border-bottom: 1px solid red !important;
+}
