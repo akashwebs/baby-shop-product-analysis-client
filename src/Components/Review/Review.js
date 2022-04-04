@@ -2,7 +2,7 @@ import React from 'react';
 import './Review.css'
 
 const Review = ({ review }) => {
-    const { name, comment, image, rating } = review;
+    const { name, comment, image, rating,profession } = review;
     return (
         <div className='px-10 py-8 bg-[#120E43] text-white rounded-lg'>
             <div className='review-comment bg-white text-gray-700 text-sm rounded-lg p-8'>
@@ -14,7 +14,7 @@ const Review = ({ review }) => {
                 </div>
                 <div className="">
                     <h3 className='text-2xl font-semibold mb-1'>{name}</h3>
-                    <p className=''><small>developer</small></p>
+                    <p className=''><small>{profession}</small></p>
                     <p> Rating: {rating}</p>
                 </div>
             </div>
