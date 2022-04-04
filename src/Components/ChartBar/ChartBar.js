@@ -9,7 +9,7 @@ const ChartBar = ({chart}) => {
           height={300}
           data={chart}
         >
-          <XAxis dataKey="month" />
+          <XAxis dataKey={"month"} />
           <YAxis dataKey={'investment'}/>
           <Tooltip />
           <Legend />

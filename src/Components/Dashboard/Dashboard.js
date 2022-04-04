@@ -1,8 +1,8 @@
-import React, { useEffect, useState, PureComponent } from 'react';
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import React, { useEffect, useState } from 'react';
 import ChartArea from '../ChartArea/ChartArea';
 import ChartBar from '../ChartBar/ChartBar';
 import ChartLine from '../ChartLine/ChartLine';
+import ChartPie from '../ChartPie/ChartPie';
 
 const Dashboard = () => {
     const [chartData, setChartData] = useState([]);
@@ -25,7 +25,7 @@ const Dashboard = () => {
                 <ChartBar chart={chartData}></ChartBar>
             </div>
             <div className='bg-blue-100 p-8 rounded-lg'>
-                <ChartLine chart={chartData}></ChartLine>
+            <ChartPie chart={chartData}></ChartPie>
             </div>
         </div>
 
