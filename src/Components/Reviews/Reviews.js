@@ -20,7 +20,7 @@ const Reviews = () => {
     
     return (
         <div className='mb-12'>
-            <h3 className='text-5xl uppercase font-bold text-center my-5' style={pathname.includes('reviews')? {display:'none'}: {display:'block'}}>Reviews</h3>
+            <h3 className='text-5xl uppercase font-bold text-center my-5 text-[#120E43]' style={pathname.includes('reviews')? {display:'none'}: {display:'block'}}>Reviews</h3>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-12'>
                 {
 
