@@ -11,4 +11,10 @@
 - chart
 - react router
 
+- reviews section
+  - 3 item in home
+  - all item in review page
+- dashboard section
+  - 404 page
+
 
